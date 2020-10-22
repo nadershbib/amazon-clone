@@ -43,7 +43,7 @@ function Subtotal() {
              )}
 
 
-            decimaleScale={2}
+            decimaleScale={0}
             value = {getBasketTotal(basket)}
             displayType={"text"}
             thousandSeperator={true}
